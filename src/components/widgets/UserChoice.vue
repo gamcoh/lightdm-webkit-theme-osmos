@@ -1,6 +1,6 @@
 <template lang='pug'>
   .widget-dual.widget-block
-    AppIcon.icon-circle.icon.mr-2(:name='getAvatar(getCurrentUser.image)')
+    AppIcon.icon-circle.icon.mr-2(:name='require("../../assets/images/user.jpeg")')
     .widget-interactive
       SelectItem(
         name='user'
