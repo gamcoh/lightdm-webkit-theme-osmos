@@ -35,6 +35,7 @@ export default {
   height 4vmin
   max-width 35px
   max-height 35px
+  cursor pointer
   overflow hidden
   svg
     width 100%

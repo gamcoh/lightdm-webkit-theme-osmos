@@ -2,7 +2,7 @@
   #intro
     #content
       AppIcon(name='Arch Linux')
-      h1 {{ $t('text.welcome') }}
+      h1 {{ $t('text.welcome') }} motherfucker
 </template>
 
 <script>

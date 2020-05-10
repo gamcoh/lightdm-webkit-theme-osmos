@@ -60,8 +60,6 @@ export default {
       const ENTER_CODE = 13
       const isFocusPassword = document.querySelector('#password:focus')
 
-      console.log(event)
-
       if (event.which === ENTER_CODE) {
         if (this.activeModal) {
           this.SET_PAGE({ key: 'event', value: { code: 'Enter' } })

@@ -9,7 +9,6 @@
       .blick.center-position
       .blick.center-position
       .kore
-    .meteor(@click.stop='changeTheme({name: "Space"})')
     .planet(@click.stop='changeTheme({name: "Osmos"})')
     .mountain-back
     .mountain-second
